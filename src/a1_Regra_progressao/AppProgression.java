@@ -1,4 +1,4 @@
-package Regra_progressao;
+package a1_Regra_progressao;
 
 import java.util.ArrayList;
 import java.util.Scanner;
