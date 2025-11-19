@@ -24,5 +24,8 @@ public class Carro {
     return km;
   }
 
-
+  @Override // Isso avisa que estamos mudando o comportamento padrão
+  public String toString() {
+    return "Carro{ Placa='" + this.placa + "', Modelo=" + this.modelo + " }";
+  }
 }

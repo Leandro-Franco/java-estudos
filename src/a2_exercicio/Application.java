@@ -3,7 +3,7 @@ package a2_exercicio;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Aplication {
+public class Application {
 
   public static void main(String[] args) {
     Scanner scan = new Scanner(System.in);
@@ -30,6 +30,8 @@ public class Aplication {
               "\n");
     }
     System.out.println("quantidade de carros " + quantidade);
+    System.out.println("\n \n \n");
+    System.out.println(carros);
 
     scan.close();
   }
