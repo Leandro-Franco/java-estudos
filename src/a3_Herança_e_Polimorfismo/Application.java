@@ -8,14 +8,18 @@ public class Application {
     player1.setName("Aragorn");
     // A linha abaixo funcionará normalmente
     player1.setWeapon("Espada");
-
-    PlayableCharacter player2 = new Warrior();
-    player2.setName("Aragorn");
-
     player1.attack();
 
-    // A linha abaixo dará erro se for descomentada
-    // player2.setWeapon("Espada");
+    Cleric player2 = new Cleric();
+
+    player2.heal();                       // Cura básica
+    player2.heal("Poção de Vida");        // Cura com a Poção de Vida
+    player2.heal("Feitiço de Luz", 7);    // Cura com Feitiço de Luz e poder 7
+
   }
+
+  // A linha abaixo dará erro se for descomentada
+  // player2.setWeapon("Espada");
 }
+
 
