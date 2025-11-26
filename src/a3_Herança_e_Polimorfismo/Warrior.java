@@ -18,7 +18,12 @@ public class Warrior extends PlayableCharacter {
       System.out.println("Personagem morreu e não pode usar seu ataque especial.");
       return;
     }
-
     System.out.println(this.getName() + " está usando seu ataque especial!");
+  }
+
+  @Override
+  public void attack() {
+    System.out.println("O guerreiro ruge!!!");
+    super.attack();
   }
 }

@@ -12,6 +12,8 @@ public class Application {
     PlayableCharacter player2 = new Warrior();
     player2.setName("Aragorn");
 
+    player1.attack();
+
     // A linha abaixo dará erro se for descomentada
     // player2.setWeapon("Espada");
   }
