@@ -1,13 +1,13 @@
-package local.config_devtools;
+package Podcasts.WEB;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-// my.component.url=https://localhost:8080
 @SpringBootApplication
-public class ConfigDevtoolsApplication {
+public class WebApplication {
+
 	public static void main(String[] args) {
-		SpringApplication.run(ConfigDevtoolsApplication.class, args);
+		SpringApplication.run(WebApplication.class, args);
 	}
 
 }

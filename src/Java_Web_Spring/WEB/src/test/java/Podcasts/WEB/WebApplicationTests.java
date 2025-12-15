@@ -1,10 +1,10 @@
-package local.config_devtools;
+package Podcasts.WEB;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ConfigDevtoolsApplicationTests {
+class WebApplicationTests {
 
 	@Test
 	void contextLoads() {

@@ -8,11 +8,11 @@
 		<version>4.0.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
-	<groupId>local</groupId>
-	<artifactId>config-devtools</artifactId>
+	<groupId>Podcasts</groupId>
+	<artifactId>WEB</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>config-devtools</name>
-	<description>config teste to devtool</description>
+	<name>WEB</name>
+	<description>Project for Spring Boot</description>
 	<url/>
 	<licenses>
 		<license/>
@@ -30,19 +30,9 @@
 		<java.version>25</java.version>
 	</properties>
 	<dependencies>
-		<!-- https://mvnrepository.com/artifact/org.springframework.boot/spring-boot-starter-actuator -->
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-actuator</artifactId>
-			<version>4.0.0</version>
-		</dependency>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-webmvc</artifactId>
-		</dependency>
-		<dependency>
-			<groupId>org.springframework.boot</groupId>
-			<artifactId>spring-boot-starter-web</artifactId>
 		</dependency>
 
 		<dependency>
